@@ -27,7 +27,6 @@
                     break;
                 default: Console.WriteLine("Invalid operator!");
                     break;
-
             }
         }
     }
