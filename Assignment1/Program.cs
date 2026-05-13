@@ -4,16 +4,14 @@
     {
         static void Main(string[] args)
         {
-            string userName, userPass;
-            userName = "admin";
-            userPass = "1234";
-
-            string userNameInp, userPassInp;
+            
+            string userName = "admin";
+            string userPass = "1234";
 
             Console.Write("Enter username: ");
-            userNameInp = Console.ReadLine();
+            string userNameInp = Console.ReadLine();
             Console.Write("Enter password: ");
-            userPassInp = Console.ReadLine();
+            string userPassInp = Console.ReadLine();
 
             if (userName != userNameInp)
             {
