@@ -11,11 +11,11 @@
             {
                 Console.WriteLine("You are a child");
             }
-            else if (age >= 13 && age <= 19)
+            else if (age <= 19)
             {
                 Console.WriteLine("You are a teenager");
             }
-            else if (age >= 20 && age <= 64)
+            else if ( age <= 64)
             {
                 Console.WriteLine("You are a adult");
             }
